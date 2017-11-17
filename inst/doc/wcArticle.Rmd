@@ -3,15 +3,25 @@ title: "Weather Information Preferences in the United States"
 subtitle: "Summary Report For the `r params$region` Region"
 author: "Author: Melinda K. Higgins, PhD."
 date: "`r format(Sys.Date(), '%A, %B %d, %Y')`"
+<<<<<<< HEAD
 params:
   region: 
     label: "Region:"
     value: Mountain
+=======
+>>>>>>> 3867058181c5d38dca55720c224e1b610ffbb7d2
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Put the title of your vignette here}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
+<<<<<<< HEAD
+=======
+params:
+  region: 
+    label: "Region:"
+    value: Mountain
+>>>>>>> 3867058181c5d38dca55720c224e1b610ffbb7d2
 ---
 
 ```{r setup, include=FALSE}
